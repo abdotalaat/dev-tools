@@ -1,4 +1,4 @@
-FROM jenkins
+FROM jenkins/jenkins:lts
 LABEL maintainer=”abdotalaatfcih@gmail.com”
 User root
 RUN apt-get update
