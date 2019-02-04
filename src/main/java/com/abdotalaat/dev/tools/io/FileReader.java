@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-
+//http
 public class FileReader {
 
 	private static Gson gson = new Gson();

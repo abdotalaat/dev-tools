@@ -18,7 +18,7 @@ public class FileReaderTest {
 
 	@Test
 	public void readFileCheckContentIsNotNullTest() throws IOException {
-		String content = FileReader.readFileAsString(this.getClass().getResource(Constants.FILE_READER_PATH).getFile());
+		String content = FileReader.readFileAsString(this.getClass().getResource(Constants.FILE_READER_PATH).getPath());
 		assertNotNull(content);
 		assertEquals(content, "success");
 	}
